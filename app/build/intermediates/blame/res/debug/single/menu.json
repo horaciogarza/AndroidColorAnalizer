@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/horaciogarza/Desktop/proyecto/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/merged/debug/menu/menu_hola.xml",
+        "source": "/Users/horaciogarza/Desktop/proyecto/app/src/main/res/menu/menu_hola.xml"
+    }
+]
