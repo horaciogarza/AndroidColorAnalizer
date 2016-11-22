@@ -4,51 +4,41 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1479780279397435000"
+    timestamp="1479796349809824000"
     token="8179905082579239306"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="95" />
+        duration="217" />
     <task
         name="instant-run-dex"
-        duration="530" />
+        duration="809" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="15" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
         location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/reload-dex/debug/classes.dex"
         type="RELOAD_DEX" />
 
-    <build timestamp="1479779630103096000" >
+    <build timestamp="1479795968605902000" >
         <artifact
             location="/Users/horaciogarza/Desktop/proyecto/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="1479779771724443000" >
-        <artifact
-            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="1479780175412204000" >
-        <artifact
-            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-    </build>
     <build
-        timestamp="1479780238416636000"
+        timestamp="1479796292702335000"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/builds/debug/1479780238416636000/classes.dex"
+            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/builds/debug/1479796292702335000/classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="1479780279397435000"
+        timestamp="1479796349809824000"
         verifier="COMPATIBLE" >
         <artifact
             location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/reload-dex/debug/classes.dex"

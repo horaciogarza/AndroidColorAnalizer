@@ -184,7 +184,17 @@ public class MainActivity extends ActionBarActivity {
                     double yellow = (1-bb-black) / (1-black);
 
 
-                    txtRes2.setText(String.format("COLOR: #%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black));
+
+
+                    String hexValue = String.format("#%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black);
+                    ColorUtils colorts = new ColorUtils();
+                    String colorName = colorts.getColorNameFromHex(hexValue);
+
+                    int[] rgb = colorts.hexToRGB(hexValue);
+                    String rgbName = "RGB(" + rgb[0] + "," + rgb[1] +  ", " + rgb[2] + ")";
+
+                    txtRes2.setText("Color: " + colorName + " \nHex:" + hexValue + " \n" + rgbName);//(String.format("COLOR: #%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black));
+
 
 
                 }catch(Exception e){

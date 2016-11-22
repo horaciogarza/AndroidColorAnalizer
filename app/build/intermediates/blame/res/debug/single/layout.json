@@ -100,6 +100,10 @@
         "source": "/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/Users/horaciogarza/Desktop/proyecto/app/src/main/res/layout/activity_home.xml"
+    },
+    {
         "merged": "/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_radio.xml"
     },
