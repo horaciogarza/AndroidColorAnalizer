@@ -4,32 +4,39 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1479798786179504000"
+    timestamp="1479805523159689000"
     token="8179905082579239306" >
 
     <task
         name="javac"
-        duration="785" />
+        duration="722" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="32" />
+        duration="31" />
     <task
         name="verifier"
-        duration="2" />
+        duration="3" />
 
     <artifact
         location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
         type="DEX" />
 
-    <build timestamp="1479798655780493000" >
+    <build timestamp="1479805048989579000" >
         <artifact
             location="/Users/horaciogarza/Desktop/proyecto/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="1479798786179504000" >
+    <build
+        timestamp="1479805086031672000"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="1479805523159689000" >
         <artifact
             location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />

@@ -1,7 +1,9 @@
 package com.example.hernanlopez.proyecto;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -20,7 +22,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+
+import com.example.hernanlopez.HomeActivity;
 
 import org.w3c.dom.Text;
 
@@ -39,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
     private String colorName;
     private String hexValue;
     private String rgbValue;
-
+    Context context;
 
     private final int PHOTO_CODE = 100;
     private final int SELECT_PICTURE = 200;
@@ -55,17 +60,16 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        realm.init(this);
-        realm  = Realm.getDefaultInstance();
-        realm.beginTransaction();
 
+
+        realm.init(this);
 
         TEMPORAL_PICTURE_NAME = Environment.getExternalStorageDirectory() + "/NOMBRE_ARCHIVO.png";
 
         imageView = (ImageView) findViewById(R.id.setPicture);
         Button button = (Button) findViewById(R.id.buttonImage);
-        favButton = (Button) findViewById(R.id.pinnedButton);
-
+        favButton = (Button) findViewById(R.id.pinColor);
+        context = this;
         favButton.setEnabled(false);
 
         favButton.setOnClickListener(new View.OnClickListener() {
@@ -78,8 +82,7 @@ public class MainActivity extends ActionBarActivity {
                 progressdialog.setCancelable(false);
                 //REALM
 
-                realm.commitTransaction();
-
+                realm  = Realm.getDefaultInstance();
                 realm.beginTransaction();
                 HistoryRealm user = realm.createObject(HistoryRealm.class); // Create a new object
 
@@ -90,13 +93,18 @@ public class MainActivity extends ActionBarActivity {
                 realm.commitTransaction();
 
                 progressdialog.dismiss();
-                
+
+
+
                 RealmResults<HistoryRealm> r = realm.where(HistoryRealm.class).findAll();
 
                 for (HistoryRealm a: r){
                     Log.d("TEST", a.getColorName());
                 }
 
+                Toast.makeText(context, colorName + " was added", Toast.LENGTH_SHORT).show();
+
+                //realm.cancelTransaction();
 
                 //End - Realm
             }
