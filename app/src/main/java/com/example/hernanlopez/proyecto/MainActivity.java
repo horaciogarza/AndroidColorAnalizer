@@ -1,6 +1,7 @@
 package com.example.hernanlopez.proyecto;
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -13,6 +14,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -25,19 +27,27 @@ import org.w3c.dom.Text;
 import java.io.File;
 import java.sql.SQLOutput;
 
+import io.realm.Realm;
+import io.realm.RealmResults;
+
 
 public class MainActivity extends ActionBarActivity {
 
     private String APP_DIRECTORY = "myPictureApp/";
     private String MEDIA_DIRECTORY = APP_DIRECTORY + "media";
     private String TEMPORAL_PICTURE_NAME;
-
+    private String colorName;
+    private String hexValue;
+    private String rgbValue;
 
 
     private final int PHOTO_CODE = 100;
     private final int SELECT_PICTURE = 200;
 
     private ImageView imageView;
+    private Button favButton;
+
+    Realm realm = null;// = Realm.getDefaultInstance();
 
 
     @Override
@@ -45,10 +55,52 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        realm.init(this);
+        realm  = Realm.getDefaultInstance();
+        realm.beginTransaction();
+
+
         TEMPORAL_PICTURE_NAME = Environment.getExternalStorageDirectory() + "/NOMBRE_ARCHIVO.png";
 
         imageView = (ImageView) findViewById(R.id.setPicture);
         Button button = (Button) findViewById(R.id.buttonImage);
+        favButton = (Button) findViewById(R.id.pinnedButton);
+
+        favButton.setEnabled(false);
+
+        favButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ProgressDialog progressdialog = new ProgressDialog(MainActivity.this);
+
+                progressdialog.setMessage("Please Wait....");
+                progressdialog.show();
+                progressdialog.setCancelable(false);
+                //REALM
+
+                realm.commitTransaction();
+
+                realm.beginTransaction();
+                HistoryRealm user = realm.createObject(HistoryRealm.class); // Create a new object
+
+                user.setColorName(colorName);
+                user.setFav(false);
+                user.setHexValue(hexValue);
+                user.setRgbValue(rgbValue);
+                realm.commitTransaction();
+
+                progressdialog.dismiss();
+                
+                RealmResults<HistoryRealm> r = realm.where(HistoryRealm.class).findAll();
+
+                for (HistoryRealm a: r){
+                    Log.d("TEST", a.getColorName());
+                }
+
+
+                //End - Realm
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -186,14 +238,18 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-                    String hexValue = String.format("#%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black);
+                    hexValue = String.format("#%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black);
                     ColorUtils colorts = new ColorUtils();
-                    String colorName = colorts.getColorNameFromHex(hexValue);
+                    colorName = colorts.getColorNameFromHex(hexValue);
 
                     int[] rgb = colorts.hexToRGB(hexValue);
-                    String rgbName = "RGB(" + rgb[0] + "," + rgb[1] +  ", " + rgb[2] + ")";
+                    rgbValue = "RGB(" + rgb[0] + "," + rgb[1] +  ", " + rgb[2] + ")";
 
-                    txtRes2.setText("Color: " + colorName + " \nHex:" + hexValue + " \n" + rgbName);//(String.format("COLOR: #%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black));
+
+                    txtRes2.setText("Color: " + colorName + " \nHex:" + hexValue + " \n" + rgbValue);//(String.format("COLOR: #%06X",  (0xFFFFFF & iColor), cyan, magenta, yellow, black));
+                    favButton.setEnabled(true);
+
+
 
 
 

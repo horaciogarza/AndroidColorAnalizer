@@ -49,21 +49,45 @@
             android:gravity="center"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
-    <Button
-        android:layout_marginTop="20dp"
-        android:id="@+id/buttonImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:width="230dp"
-        android:text="Analyze"
-        android:layout_gravity="center"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
 
 
-        android:textSize="20dp"
-        android:background="@drawable/button_bg"
 
-        android:layout_centerHorizontal="true"/>
+            <Button
+
+                android:id="@+id/buttonImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:width="150dp"
+                android:text="Analyze"
+                android:layout_gravity="center"
+
+
+                android:textSize="20dp"
+                android:background="@drawable/button_bg"
+
+                android:layout_centerHorizontal="true"/>
+            <Button
+
+                android:id="@+id/pinColor"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:text="\u2605"
+                android:layout_gravity="center"
+                android:textColor="#ffd700"
+                android:textSize="25dp"
+                android:background="@drawable/button_bgGold"
+                android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+
     </LinearLayout>
 
 
