@@ -59,6 +59,8 @@ ADDED from /Users/horaciogarza/Desktop/proyecto/app/src/main/AndroidManifest.xml
 		ADDED from /Users/horaciogarza/Desktop/proyecto/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /Users/horaciogarza/Desktop/proyecto/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [io.realm:realm-android-library:2.2.0] /Users/horaciogarza/Desktop/proyecto/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/horaciogarza/Desktop/proyecto/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/horaciogarza/Desktop/proyecto/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /Users/horaciogarza/Desktop/proyecto/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
