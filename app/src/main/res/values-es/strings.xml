@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Color Analyzer</string>
+    <string name="action_settings">Configuración</string>
+    <string name="pictureText">Foto!</string>
+    <string name="AnalyzeButtonString">ANALIZAR</string>
+    <string name="TakePhotoOptionString">Tomar Foto</string>
+    <string name="FavoritesButtonString">MEJORES</string>
+    <string name="CancelButtonString">Cancelar</string>
+    <string name="SelectAnOptionString">Selecciona una opción</string>
+</resources>

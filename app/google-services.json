@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "567666003012",
+    "firebase_url": "https://color-analyzer-91a50.firebaseio.com",
+    "project_id": "color-analyzer-91a50",
+    "storage_bucket": "color-analyzer-91a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567666003012:android:bec7fea525662084",
+        "android_client_info": {
+          "package_name": "com.hgarzstudios.ColorAnalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567666003012-13odb6jujoc2qp8r9p54snhj2hs2l824.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhx7FF3J6PXMiXsLNh0q4X3HG-vvBrMC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

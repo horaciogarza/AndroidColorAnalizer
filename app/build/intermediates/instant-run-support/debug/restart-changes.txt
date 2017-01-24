@@ -1,0 +1,6 @@
+CHANGED,/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hgarzstudios/ColorAnalyzer/proyecto/MainActivity$2.class
+CHANGED,/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hgarzstudios/ColorAnalyzer/proyecto/MainActivity.class
+CHANGED,/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hgarzstudios/ColorAnalyzer/proyecto/MainActivity$3$1.class
+CHANGED,/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hgarzstudios/ColorAnalyzer/proyecto/MainActivity$4.class
+CHANGED,/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hgarzstudios/ColorAnalyzer/proyecto/MainActivity$1.class
+CHANGED,/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hgarzstudios/ColorAnalyzer/proyecto/MainActivity$3.class

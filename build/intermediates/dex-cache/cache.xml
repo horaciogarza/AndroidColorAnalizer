@@ -1,2 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-10.0.1_c367d57b5469ddf27ce818cd271c8179132ced87.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/internal_impl-24.0.0_bd86d21df962f37de9343af28d6bedb726618b15.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-10.0.1_64272fcffc7df386ef1dca15583abf236d0d2983.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/support-annotations-24.0.0_ce3cbc6c6cda5fe35da0973d7bbd2e3297b089dd.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_414a6b3a33f295d9c3b6522de2be1c6beaca41ee.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.2.0/cd37966f459edfec260524927da6c63e9bd9e2ff/realm-annotations-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cd37966f459edfec260524927da6c63e9bd9e2ff">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/realm-annotations-2.2.0_e5d5a0bbac090341f9b4f03c9c3ba63cc143d352.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-10.0.1_68ff0dcd2fca813b910c71a7fdadccd758cd8d0a.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-10.0.1_10c5d8ca8d8a55d49334dd67c9fae001d81cd859.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.getkeepsafe.relinker-relinker-1.2.2_8d0e67e839d5b947883eb44c61e6c9c04245109f.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-10.0.1_fa8e1c6b6a411e55fe3514ef76f5b781261327ce.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a02e6a615a9c87f73f003c95272f337ffa67dbb">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/io.realm-realm-android-library-2.2.0_ade90a18b8658b1074a747b768dfad06118334e5.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-10.0.1_a26cf9b65d9e635d2599f81baad7d6a90e714921.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-10.0.1_bbf5314767f54afe1ef77cacdd21df3d946a9636.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-10.0.1_bf14b5e34aa7529dc5e0f9bfc4296a00b645c09c.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-10.0.1_9ee27309d4f3605c272c95fe5a978408f45fb5d4.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-10.0.1_20e438516cf38d184779fbfae467c3be183827a1.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.0.0_99e5e02cf793c414f3655b47c88dbc0995ba427a.jar" />
+    </item>
+    <item
+        jar="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-10.0.1_3bf14373a128fb8979d06f357784e190ff362f23.jar" />
+    </item>
+
+</items>

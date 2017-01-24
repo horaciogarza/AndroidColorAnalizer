@@ -1,6 +1,0 @@
-CHANGED,/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/hernanlopez/proyecto/MainActivity$2$1$override.class
-CHANGED,/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/hernanlopez/proyecto/MainActivity$1$override.class
-CHANGED,/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/hernanlopez/proyecto/MainActivity$2$override.class
-CHANGED,/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/hernanlopez/proyecto/MainActivity$3$override.class
-CHANGED,/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/hernanlopez/proyecto/MainActivity$override.class
-CHANGED,/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

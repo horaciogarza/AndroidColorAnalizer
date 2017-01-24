@@ -4,42 +4,45 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1479805523159689000"
-    token="8179905082579239306" >
+    timestamp="1485232503762110000"
+    token="-8013011991956539552"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="722" />
+        duration="655" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="869" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="7" />
     <task
         name="verifier"
-        duration="3" />
+        duration="1" />
 
     <artifact
-        location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
+        location="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="1479805048989579000" >
+    <build timestamp="1485232008384674000" >
         <artifact
-            location="/Users/horaciogarza/Desktop/proyecto/app/build/outputs/apk/app-debug.apk"
+            location="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1479805086031672000"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="1485232352060060000"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
+            location="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/builds/debug/1485232352060060000/classes.dex"
+            type="RELOAD_DEX" />
     </build>
-    <build timestamp="1479805523159689000" >
+    <build
+        timestamp="1485232503762110000"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/horaciogarza/Desktop/proyecto/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
+            location="/Users/horaciogarza/Desktop/ColorAnalyzer/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

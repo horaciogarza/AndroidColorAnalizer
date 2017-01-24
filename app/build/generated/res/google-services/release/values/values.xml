@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">567666003012-13odb6jujoc2qp8r9p54snhj2hs2l824.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://color-analyzer-91a50.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">567666003012</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhx7FF3J6PXMiXsLNh0q4X3HG-vvBrMC0</string>
+    <string name="google_app_id" translatable="false">1:567666003012:android:bec7fea525662084</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhx7FF3J6PXMiXsLNh0q4X3HG-vvBrMC0</string>
+    <string name="google_storage_bucket" translatable="false">color-analyzer-91a50.appspot.com</string>
+</resources>
